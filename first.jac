@@ -33,10 +33,10 @@ with entry {
     root ++> loaded ++> en_route ++> checkpoint ++> delivered;
 
     # Spawn shipments
-    root spawn ShipmentAgent(goods_type="Household Items", shipment_id=301);
-    root spawn ShipmentAgent(goods_type="Foodstuffs", shipment_id=302);
-    root spawn ShipmentAgent(goods_type="Building Materials", shipment_id=303);
-    root spawn ShipmentAgent(goods_type="Clothes", shipment_id=304);
+    root spawn ShipmentAgent(goods_type="Household Items", shipment_id=1);
+    root spawn ShipmentAgent(goods_type="Foodstuffs", shipment_id=2);
+    root spawn ShipmentAgent(goods_type="Building Materials", shipment_id=3);
+    root spawn ShipmentAgent(goods_type="Clothes", shipment_id=4);
     
 }
 
